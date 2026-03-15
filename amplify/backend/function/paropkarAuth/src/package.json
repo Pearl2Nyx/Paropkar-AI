@@ -1,0 +1,15 @@
+{
+  "name": "paropkarauth",
+  "version": "1.0.0",
+  "description": "Auth Lambda - OTP via SNS, JWT sessions, Aadhaar hashing",
+  "main": "index.js",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "aws-sdk": "^2.1400.0",
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "jsonwebtoken": "^9.0.0",
+    "crypto": "^1.0.1"
+  }
+}
